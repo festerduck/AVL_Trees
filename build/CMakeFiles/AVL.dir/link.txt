@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/AVL.dir/src/AVL.cpp.o CMakeFiles/AVL.dir/src/BInaryTree.cpp.o CMakeFiles/AVL.dir/src/BST.cpp.o CMakeFiles/AVL.dir/main.cpp.o -o AVL 

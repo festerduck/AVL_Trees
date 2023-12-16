@@ -1,0 +1,3 @@
+/home/fester/cpp/AVL_Trees/build/CMakeFiles/AVL.dir
+/home/fester/cpp/AVL_Trees/build/CMakeFiles/edit_cache.dir
+/home/fester/cpp/AVL_Trees/build/CMakeFiles/rebuild_cache.dir
