@@ -27,7 +27,7 @@ BST<Comparable> :: ~BST()                            //Destructor
 }
 
 template <class Comparable>
-bool BST<Comparable> :: search(const Comparable data)           //Contains
+bool BST<Comparable> :: search(const Comparable& data)           //Contains
 {
     if(BinaryTree<Comparable>::tree_root != NULL)
     {
@@ -36,10 +36,11 @@ bool BST<Comparable> :: search(const Comparable data)           //Contains
         {
             if(current->element == data)
                 return true;
-            if(current->element < data)
+            else if(current->element < data)
                 current = current->right;
-            if(current->element > data)
-                current = current->left;
+            else {
+             current = current->left;
+            }
         }
     }
     return false;

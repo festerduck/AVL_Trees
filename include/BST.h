@@ -12,7 +12,7 @@ public:
 //destructor
     virtual ~BST();
 //search an element
-    bool search(const Comparable data);
+    bool search(const Comparable& data);
 //find minimum element
     BinaryNode<Comparable>* findMin();
 //find maximum element
