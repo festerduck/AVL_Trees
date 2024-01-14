@@ -64,7 +64,7 @@ void AVL<Comparable>::balance(BinaryNode<Comparable>* &root) {
   root->height = max(height(root->left), height(root->right)) + 1; //Get the max height from left and right and increment by 1
 }
 template <class Comparable>
-void AVL<Comparable>::singleLeftRotation(BinaryNode<Comparable>* &k2){
+void AVL<Comparable>::singleRightRotation(BinaryNode<Comparable>* &k2){
   BinaryNode<Comparable>* k1 = k2->left;
   k2->left = k1->right;
   k1->right = k2;
@@ -74,7 +74,7 @@ void AVL<Comparable>::singleLeftRotation(BinaryNode<Comparable>* &k2){
 }
 
 template <class Comparable>
-void AVL<Comparable>::singleRightRotation(BinaryNode<Comparable>* &k2){
+void AVL<Comparable>::singleLeftRotation(BinaryNode<Comparable>* &k2){
   BinaryNode<Comparable>* k1 = k2->right;
   k2->right = k1->left;
   k1->left = k2;
